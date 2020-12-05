@@ -1,0 +1,156 @@
+@import =url('https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap');
+*{box-sizing:border-box;}
+.rounded img{
+  border-radius: 30%;
+
+}
+body{
+  background-color:#2C3E50 ;/* #34495E #B7950B #28B463 
+ #8E44AD*/
+  color:;
+  font-family:'play',sans-serif;
+  margin:0;
+}
+#bout{color:#F7DC6F;
+font-size:40px}
+.About{color:#E8DAEF }
+#title{color:#E8DAEF ;}
+header{
+  color:white;
+  background-image:url('https://images.unsplash.com/photo-1508830524289-0adcbe822b40?ixlib=rb-1.2.1&auto=format&fit=crop&w=711&q=80');
+ 
+  background-size:cover;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction:column;
+  background-position:center center;
+  height:80vw;
+  position:relative;
+    
+} #ab{font-size:45px;
+color:#F4D03F}
+header h1{font-size:45px;
+color:#B03A2E}
+header p{font-size:18px;
+color:#fff;
+margin:0;
+font-size:30px;}
+header::after{
+  content:'';
+  top:0;
+  position:absolute;
+  right:0;
+  left:0;
+  bottom:0;
+  background-color:#000;
+  opacity:0.8;
+}
+header *{
+  position:relative;
+  z-index:1;
+  
+}
+nav{padding:25px;
+  display:flex;
+  justify-content:flex-end;
+   background-color: #BFC9CA ;
+  color:#BA4A00;
+padding:15px;
+}
+nav a{
+  color:black;
+  text-decoration:none;
+  margin-left:25px;
+}
+nav a:hover{
+  border-bottom:3px solid #fff
+}
+footer{
+   background-color: #BFC9CA ;
+    text-align: center;
+  color:#BA4A00;}
+footer .fa-heart{
+  color:black;
+}
+.bg-pinkish{
+  background-color: #16A085;
+}
+section{
+  text-align:center;
+}
+.social-links{
+ display:flex;
+  list-style-type:none;
+  justify-content:center;
+ padding:0;
+  margin:0;
+}
+.social-links a{
+  color:black;
+  font-size:50px;
+  margin: 0 20px;
+}
+section h2{
+  margin-bottom:0;
+}
+section p{
+  margin-top:0;
+}
+.project :hover{border-bottom:3px solid #fff;
+}
+.project{
+   margin: 0 20px;
+  max-width:250px;
+}.project p{color:white;}
+.certficate p{color:white;}
+.certficate p:hover{
+   border-bottom:3px solid #fff;
+}
+.project p:hover{
+  border-bottom:3px solid #fff;
+}
+.project img{
+  height:200px;
+  max-width:100%;
+}
+.projectsr{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  max-width: 810px;
+  margin: 20px auto 0;
+}
+#projects{
+  position:relative;
+  align-items:center;
+  justify-content:center;
+}
+header h2{font-size:45px;
+color:#B03A2E}
+.certficate{
+    margin: 0 20px;
+  max-width:250px;
+}
+.certficate :hover{
+   border-bottom:3px solid #fff;
+}
+.certficate img{
+  height:170px;
+  max-width:100%;
+}
+
+.certficatesr{
+  display:flex;
+  align-items:center;
+  jusitfy-content:center;
+ margin: 0 10px;
+  flex-wrap:wrap;
+  background-size:cover;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  
+  
+}
